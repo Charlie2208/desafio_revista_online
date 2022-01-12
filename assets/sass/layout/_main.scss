@@ -1,0 +1,133 @@
+.contenido {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    // width: 60rem;
+    margin: 0 auto;
+}
+
+.noticia_1{
+    
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+}
+.noticia_2{
+    
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+}
+.noticia_3{
+    
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+}
+
+.noticia_4{
+    
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+}
+.noticia_5{
+    
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+}
+.noticia_6{
+    
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+}
+@media screen and (max-width: 576px){
+    .contenido {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        // width: 60rem;
+        margin: 0 auto;
+    }
+
+    .noticia_1{
+        grid-column-start: 1;
+    grid-column-end: 2;
+    }
+
+    .noticia_2{
+        grid-column-start: 1;
+    grid-column-end: 2;
+    }
+    .noticia_3{
+        grid-column-start: 1;
+    grid-column-end: 2;
+    }
+    .noticia_4{
+        grid-column-start: 1;
+    grid-column-end: 2;
+    }
+    .noticia_5{
+        grid-column-start: 1;
+    grid-column-end: 2;
+    }
+    .noticia_6{
+        grid-column-start: 1;
+    grid-column-end: 2;
+    }
+    
+
+}
+
+@media screen and (max-width: 768px){
+    .noticia_1{
+        grid-column-start: 2;
+    grid-column-end: 5;
+    }
+
+    .noticia_2{
+        grid-column-start: 2;
+    grid-column-end: 5;
+    }
+    .noticia_3{
+        grid-column-start: 2;
+    grid-column-end: 5;
+    }
+    .noticia_4{
+        grid-column-start: 2;
+    grid-column-end: 5;
+    }
+    .noticia_5{
+        grid-column-start: 2;
+    grid-column-end: 5;
+    }
+    .noticia_6{
+        grid-column-start: 2;
+    grid-column-end: 5;
+    }
+      
+        
+}
+
+ .listad-noticias {
+    display: grid;
+     width: 700px;
+     float: left;
+ }
+
+ .noticia {
+     width: 210px;
+     display: inline-block;
+     margin: 5px;
+     cursor: pointer;
+ }
+
+ .cuerpo img {
+     width: 210px;
+     height: 300px;
+ }
+
+ .cuerpo p {
+     padding: 5px 10px;
+ }
+
