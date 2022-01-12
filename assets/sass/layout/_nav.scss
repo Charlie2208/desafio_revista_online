@@ -1,6 +1,6 @@
 .menu {
     width: 60rem;
-    padding: 10px;
+    padding: 0.625rem;
     border-bottom: 1px solid gray;
     display: grid;
     grid-column-start: 1;
@@ -9,7 +9,7 @@
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
     text-transform: uppercase;
     display: inline-block;
@@ -35,10 +35,10 @@
 .input-menu {
     border-radius: 30px;
 }
-@media screen and (max-width: 576px){
+@include phone-view{
     .menu {
         width: 36rem;
-        padding: 10px;
+        padding: 0.625rem;
         border-bottom: 1px solid gray;
         display: grid;
         grid-column-start: 1;
@@ -46,7 +46,7 @@
         
     }
     .logo {
-        font-size: 24px;
+        font-size: 1.5rem;
         font-weight: bold;
         text-transform: uppercase;
         display: inline-block;
@@ -69,14 +69,14 @@
 
 
 }
-@media screen and (max-width: 768px){
+@include tablet-view{
     .menu {
-        width: 767px;
+        width: 47.9375rem;
         
         
     }
     .logo {
-        font-size: 24px;
+        font-size: 1.5rem;
         font-weight: bold;
         text-transform: uppercase;
         display: inline-block;

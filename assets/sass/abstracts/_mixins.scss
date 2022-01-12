@@ -2,3 +2,22 @@
     $result: ($target / $context);
     #{$property}: #{$result + $unit};
 }
+
+@mixin tablet-view{
+    @media (max-width:#{$max-tablet}){
+        @content;
+    }
+}
+
+@mixin phone-view{
+    @media (max-width:#{$max-mobile}){
+        @content;
+    }
+}
+
+@mixin desktop-view{
+    @media (max-width:#{$max-desktop}){
+        @content;
+    }
+}
+
