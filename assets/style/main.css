@@ -1,32 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
 body {
-  font-family: monospace;
   font-size: 16px;
+  font-family: "Open Sans";
 }
 
-.contenedor {
-  width: 80%;
-  margin: 0 auto;
-  display: grid;
-  grid-gap: 1.25rem;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, auto);
-}
-
-@media (max-width: 576px) {
-  .contenedor {
-    width: 80%;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, auto);
-  }
-}
-@media screen and (max-width: 576px) and (max-width: 768px) {
-  .contenedor {
-    width: 80%;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, auto);
-  }
-}
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
