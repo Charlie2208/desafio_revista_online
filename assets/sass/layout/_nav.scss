@@ -1,28 +1,33 @@
-.menu {
-    width: 60rem;
-    padding: 0.625rem;
-    border-bottom: 1px solid gray;
-    display: grid;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    
-}
 
-.logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    display: inline-block;
-    grid-column-start: 1;
-    grid-column-end: 2;
+
+.navbar{
+    border-bottom: 1px solid gray;
+
+    &__logo{
+        font-size: 24px;
+        font-weight: bold;
+        text-transform: uppercase;
+        display: inline-block;
+    }
+
+    &__nav{
+        display: inline-block;
+        text-align: right;
+    }
+
+    &__nav-ul{
+        text-decoration: none;
+    }
+
+    &__nav-li{
+        text-decoration: none;
+    }
+
 }
 
 .nav {
     display: inline-block;
-    // width: 840px;
-    // text-align: right;
-    grid-column-start: 3;
-    grid-column-end: 4;
+    text-align: right;
 }
 
 
@@ -35,61 +40,4 @@
 .input-menu {
     border-radius: 30px;
 }
-@include phone-view{
-    .menu {
-        width: 36rem;
-        padding: 0.625rem;
-        border-bottom: 1px solid gray;
-        display: grid;
-        grid-column-start: 1;
-        grid-column-end: 2;
-        
-    }
-    .logo {
-        font-size: 1.5rem;
-        font-weight: bold;
-        text-transform: uppercase;
-        display: inline-block;
-        grid-column-start: 1;
-        grid-column-end: 1;
-    }
 
-    .nosotros{
-        display: none;
-    }
-
-    .nav {
-        // display: inline-block;
-        // width: 840px;
-        // text-align: right;
-        grid-column-start: 2;
-        grid-column-end: 2;
-    }
-
-
-
-}
-@include tablet-view{
-    .menu {
-        width: 47.9375rem;
-        
-        
-    }
-    .logo {
-        font-size: 1.5rem;
-        font-weight: bold;
-        text-transform: uppercase;
-        display: inline-block;
-        grid-column-start: 1;
-        grid-column-end: 2;
-    }
-
-    .nav {
-        // display: inline-block;
-        // width: 840px;
-        // text-align: right;
-        grid-column-start: 2;
-        grid-column-end: 3;
-    }
-    
-}

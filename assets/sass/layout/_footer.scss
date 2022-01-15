@@ -1,20 +1,5 @@
 .footer {
-
-    grid-column-start: 1;
-    grid-column-end: 5;
-//     width: 960px;
-   margin: 0 auto;
-   text-align: center;
-}
-
-@include phone-view{
-    .footer{
-        grid-column-start: 1;
-    grid-column-end: 2;
-    position: absolute;
-    top: 2860px;
-    left: 70px;
     
-    
-    }
+    margin: 0 auto;
+    text-align: center;
 }

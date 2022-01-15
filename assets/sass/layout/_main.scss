@@ -1,143 +1,23 @@
-.contenido {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    // width: 60rem;
-    margin: 0 auto;
+
+
+.contenido{
+    margin-top: 50px;
+
+    &__noticia{
+        padding-bottom: 50px;
+    }
+
     
 }
 
-.noticia_1{
-    
-    grid-column-start: 1;
-    grid-column-end: 2;
 
-}
-.noticia_2{
-    
-    grid-column-start: 2;
-    grid-column-end: 3;
 
-}
-.noticia_3{
-    
-    grid-column-start: 3;
-    grid-column-end: 4;
 
-}
 
-.noticia_4{
-    
-    grid-column-start: 1;
-    grid-column-end: 2;
 
-}
-.noticia_5{
-    
-    grid-column-start: 2;
-    grid-column-end: 3;
 
-}
-.noticia_6{
-    
-    grid-column-start: 3;
-    grid-column-end: 4;
 
-}
-@include phone-view{
-    .contenido {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        width: 60rem;
-        margin: 0 auto;
-    }
 
-    .noticia_1{
-        grid-column-start: 1;
-    grid-column-end: 2;
-    }
 
-    .noticia_2{
-        grid-column-start: 1;
-    grid-column-end: 2;
-    }
-    .noticia_3{
-        grid-column-start: 1;
-    grid-column-end: 2;
-    }
-    .noticia_4{
-        grid-column-start: 1;
-    grid-column-end: 2;
-    }
-    .noticia_5{
-        grid-column-start: 1;
-    grid-column-end: 2;
-    }
-    .noticia_6{
-        grid-column-start: 1;
-    grid-column-end: 2;
-    }
-    
-    .cuerpo img {
-        width: 100%;
-        height: 100%;
-    }
-        
-    .listad-noticias {
-        display: grid;
-         width: 100%;
-         float: left;
-     }
-}
 
-@include tablet-view{
-    .noticia_1{
-        grid-column-start: 2;
-    grid-column-end: 5;
-    }
-
-    .noticia_2{
-        grid-column-start: 2;
-    grid-column-end: 5;
-    }
-    .noticia_3{
-        grid-column-start: 2;
-    grid-column-end: 5;
-    }
-    .noticia_4{
-        grid-column-start: 2;
-    grid-column-end: 5;
-    }
-    .noticia_5{
-        grid-column-start: 2;
-    grid-column-end: 5;
-    }
-    .noticia_6{
-        grid-column-start: 2;
-    grid-column-end: 5;
-    }
-      
-        
-}
-
- .listad-noticias {
-    display: grid;
-     width: 43.75rem;
-     float: left;
- }
-
- .noticia {
-     width: 13.125rem;
-     display: inline-block;
-     margin: 0.3125rem;
-     cursor: pointer;
- }
-
- .cuerpo img {
-     width: 13.125rem;
-     height: 18.75rem;
- }
-
- .cuerpo p {
-     padding: 0.3125rem 0.625rem;
- }
 
