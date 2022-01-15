@@ -655,8 +655,8 @@ template {
 
 @media (max-width: 576px) {
   .contenido__cuerpo img {
-    width: 400px;
-    height: 300px;
+    width: 25rem;
+    height: 18.75rem;
   }
 }
 .navbar {
