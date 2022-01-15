@@ -1,6 +1,11 @@
+
+
 .aside{
     margin-top: 50px;
 }
+   
+
+
 
 .aside__cabecera {
     
@@ -32,8 +37,10 @@
     height: 200px;
 }
 
-// @include desktop-view{
-//     .listado-izquierdo{
-//                 display: none;
-//             }
-// }
+@include tablet-view{
+    .aside{
+                display: none;
+            }
+}
+
+
