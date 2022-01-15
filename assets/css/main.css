@@ -655,7 +655,7 @@ template {
 
 @media (max-width: 576px) {
   .contenido__cuerpo img {
-    width: 25rem;
+    width: 80%;
     height: 18.75rem;
   }
 }
